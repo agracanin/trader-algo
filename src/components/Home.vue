@@ -38,7 +38,7 @@
 <div class="testimonial">
     <div class="testimonial-text">
         <p class="testimonial-text">
-            "I've been trading for 10 years and this is the best algorithm I've ever used!"
+            “TradingAlgo has completely taken the complication out of my trading process and is more profitable than my previous strategies. I recommend it to anyone at any skill level.”
         </p>
         <span class="author">- @dummyUser4212</span>
     </div>
@@ -128,30 +128,27 @@
     margin: 0 5rem;
     padding: 0.5em 2em;
     align-items: center;
-    height: 200px;
+    height: 250px;
+    position: relative;
 }
 
 .testimonial-text {
     font-size: 1.1rem;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
     margin-right: 2rem;
-    /* width: 400px; */
+    width: 400px;
+    padding-bottom: 1rem;
 }
 
 
 .iphone-img{
-    position: relative;
-    width: 400px;
-    height: 200px;
-    overflow: clip;
-    overflow-clip-margin: content-box;
-}
-
-.iphone-img > img {
-    /* position: absolute; */
-    top: 0;
-    right: 0;
+    position: absolute;
+    width: 350px;
+    height: 260px;
+    overflow: hidden;
+    top: -10px;
+    right: 60px;
 }
 
 .author {

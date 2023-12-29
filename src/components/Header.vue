@@ -28,11 +28,12 @@
 <style scoped>
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #0e1320;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 1em 5em;
+    padding: 1em 300px;
+    width: 100%;
 }
 
 .nav-list {
