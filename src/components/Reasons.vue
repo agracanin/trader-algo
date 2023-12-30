@@ -73,7 +73,7 @@ h2 {
     flex-direction: column;
     gap: 1rem;
     padding: 3rem 2rem;
-    background-color: rgba(35, 40, 53, 0.596);
+    background-color: rgb(14, 19, 29);
     border-radius: 10px;
     width: 500px;
 }
